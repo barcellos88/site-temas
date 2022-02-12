@@ -1,0 +1,80 @@
+body {
+    background: #1C1C1C;
+}
+
+.nav_bar,.header_menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+}
+
+ul li::marker {
+    font-size: 0rem;
+}
+
+@font-face {
+    font-family: Lordish;
+    src: url(font/Lordish.ttf);
+}
+
+@font-face {
+    font-family: godOfWar;
+    src: url(font/GODOFWAR.TTF);
+}
+
+.header_menu_home_nav{
+    font-family: godOfWar;
+    font-size: 20px;
+}
+
+#barcellos_family_home {
+    font-family: Lordish;
+    font-size: 50px;
+    padding-right: 100px;
+    float: left;
+}
+
+.nav_bar_home,.header_menu_home {
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.header_menu_home a {
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+}
+
+footer{
+    clear: both;
+    height: 90px;
+    background-color: #363636;
+}
+
+.header_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bolinha {
+    /*background-color: #fff;*/
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    margin: 15px;
+}
+.icon {
+    width: 32px;
+    height: 32px;
+}
+
+.header_menu_home_nav a:hover, .active .header_menu_home_nav a:hover {
+    color: #13aff0;
+}
